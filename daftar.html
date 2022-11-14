@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Diri</title>
+  <link rel="stylesheet"  type="text/css" href="./style.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="header ">
+            <div class="logo"><a class="cetak" href="">Greenery</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/menu">Menu</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/daftar" class="tbl-putih">Daftar</a></li>
+                    <li><a href="/login">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   </header>
+   <main>
+    <center>
+        <Form class="kotak" action="/daftar" method="POST">
+            <p class="judul"><h1>Identitas Diri</h1></p>
+            <table>
+            <input type="text" name="nama" placeholder="Nama Lengkap">
+            <input type="text" name="tempat" placeholder="Tempat/Tanggal Lahir">
+            <input type="text" name="username" placeholder="Username">
+            <input type="text" name="password" placeholder="Password">
+            <input type="text" name="mail" placeholder="Email">
+            <input type="text" name="tel" placeholder="No Telephone">
+            </table>
+            <input class="btnkirim" type="submit" value="Kirim"><br>
+        </Form>
+    </center>
+   </main>
+</body>
+</html> 
